@@ -1,0 +1,228 @@
+
+  
+.column1 {
+  padding-top: 5%;
+  flex-grow:1;
+  width: 50%;
+  background-color:#EBF7F5;
+  padding-left:30px;
+  padding-right:30px;
+  overflow: auto;
+
+}
+
+.column2 {
+  width: 50%;
+  background-color:#D7EFDC;
+  padding-left:20px;
+  padding-right:20px;
+  overflow: auto;
+  display: flex;
+
+}
+
+.row1{
+  display: flex;
+  width:100%;
+  overflow: hidden; 
+}
+
+.slide{
+  width:200px;
+  flex:2;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+
+a {
+  text-decoration: none !important;
+}
+
+.slideButton{
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  color:white;
+  background-color:#035B57;
+  border-radius:50%; 
+  cursor:pointer;
+  margin-top: 150px;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: #ddd;
+  color: black;
+}
+
+.ReviewCard{
+  background-color:#EBF7F5;
+  display:inline-block;
+  width:30%;
+  margin-right:10px;
+  margin-left:10px;
+  padding:15px;
+  overflow:hidden;
+}
+
+.Quotes{
+  display:block; 
+  float:left;
+}
+
+.Quotes1{
+  display:block; 
+  float:right;
+}
+
+.ReviewCardHeader{
+  margin-bottom: 2%;
+}
+
+.ImageCard{
+  padding-left:20px;
+  padding-right:20px;
+  display:inline-block;
+  margin-right:2%;
+  margin-left:2%;
+  background-color:#EBF7F5;
+  box-shadow:1px 8px 10px #a9a9a9;
+  margin-top:0px;
+  padding-top:0px; 
+  margin-bottom:5%
+}
+
+.ImageCardImg{
+  position:relative;
+  bottom:15px
+}
+
+.Banner1Image{
+  position:relative;
+  float:left;
+  margin-left:8%;
+}
+
+.para2{
+  font-size: 35px;
+}
+
+.para3{
+  font-size: 30px;
+  width:60%;
+  display:inline-block;
+}
+
+.Banner1{
+  width:100%;
+  background-color:#D7EFDC;
+  padding-right:20px;
+  padding-left:20px;
+  overflow:hidden;
+  position:relative;
+}
+
+
+@media only screen and (max-width: 700px) {
+
+  .ReviewCard{
+    background-color:#EBF7F5;
+    display:inline-block;
+    width:90%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: 3%;
+    padding:10px;
+    overflow:hidden;
+    font-size: 15px;
+  }
+
+  .Quotes{
+    display:block; 
+    float:left;
+    width:15px;
+    height:15px;
+  }
+
+  .Quotes1{
+    display:block; 
+    float:right;
+    width:15px;
+    height:15px;
+  }
+
+  .ReviewCardHeader{
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+
+  .row1{
+    margin-top: 8%;
+    display: block;
+    width:100%;
+  }
+  
+  .column1 {
+    padding-top: 5%;
+    width: 100%;
+    background-color:#EBF7F5;
+    padding-left:20px;
+    padding-right:20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3%;
+    display: block;
+  
+  }
+  
+  .column2 {
+    width: 100%;
+    background-color:#D7EFDC;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  
+  }
+  
+  .ImageCardImg{
+    position:relative;
+    bottom:15px;
+    width:112px;
+    height:150px;
+  }
+
+  .ImageCard{
+    margin-top: 8%;
+    padding-left:15px;
+    padding-right:15px;
+  }
+
+  .Banner1Image{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    float: none;
+    width:191;
+    height:300;
+    text-align: center;
+  }
+  
+  .para2{
+    font-size: 30px;
+  }
+  
+  .para3{
+    font-size: 25px;
+    width:100%;
+    display:inline-block;
+  }
+  
+  .Banner1{
+    padding-right:5px;
+    padding-left:5px;
+  }
+
+}
